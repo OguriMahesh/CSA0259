@@ -1,0 +1,19 @@
+#include<stdio.h>
+struct person
+{
+int age;
+float height;
+char name [10];
+}emp;
+main()
+{
+printf(" enter the details of person\n");
+printf("enter the name :");
+scanf("%s",&emp.name);
+printf(" age: ");
+scanf("%d",&emp.age);
+printf( "height:" );
+scanf("%f",&emp.height);
+printf("Person details are");
+printf("\t %s  \t %d \t %0.2f", emp.name,emp.age,emp.height);
+}
